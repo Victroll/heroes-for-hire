@@ -1,0 +1,14 @@
+.header {
+  width: 100vw;
+  background-color: #5bac45;
+  padding-top: 0;
+  height: 6rem;
+  padding: 0;
+  border-color: #6D808C;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+}
+
+.ant-page-header-content-view {
+  padding-top: 0;
+}

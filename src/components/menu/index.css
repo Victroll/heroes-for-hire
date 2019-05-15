@@ -1,0 +1,39 @@
+.menu-wrapper {
+  height: 80%;
+}
+
+.menu-wrapper > ul {
+  background-color: #92d971;
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-wrapper > ul > li {
+  height: 5rem !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: large !important;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu-wrapper > ul > li:active {
+  background-color: transparent !important;
+}
+
+.menu-wrapper > ul > li:hover {
+  color: white !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  font-size: x-large !important;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+  background-color: transparent !important;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-weight: bold;
+  font-size: medium;
+}
