@@ -4,7 +4,9 @@
 }
 
 .left-content {
-  width: 20vw;
+  width: 275px;
+  max-width: 20vw;
+  min-width: 180px;
   height: 100%;
   background-color: #92d971;
   border-color: #6D808C;
